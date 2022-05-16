@@ -54,8 +54,8 @@ jobs:
       - name: push on
         shell: bash
         run: |
-          git config --global user.name "IvanGalk1n"
-          git config --global user.email "ivangalkin0720@gmail.com"
+          git config --global user.name "lamerav"
+          git config --global user.email "gmbelove@mail.com"
           cd artifacts/
           git add *.deb *.rpm
           git commit -m "added deb & rpm"
@@ -96,8 +96,8 @@ jobs:
       - name: push on
         shell: bash
         run: |
-          git config --global user.name "IvanGalk1n"
-          git config --global user.email "ivangalkin0720@gmail.com"
+          git config --global user.name "lamerav"
+          git config --global user.email "gmbelove@mail.com"
           git pull origin HEAD:master
           cd artifacts/
           git add *dmg
@@ -125,8 +125,8 @@ jobs:
           
       - name: push on
         run: |
-          git config --global user.name "IvanGalk1n"
-          git config --global user.email "ivangalkin0720@gmail.com"
+          git config --global user.name "lamerav"
+          git config --global user.email "gmbelove@mail.com"
           git pull origin HEAD:master
           cd artifacts/
           git add *msi
